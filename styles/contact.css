@@ -1,0 +1,36 @@
+.l-section__contact{
+    background-color: var(--black);
+    font-family: var(--font);
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+}   
+
+.c-heading__h3__contact{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    font-size: 2rem;
+    
+}
+
+.l-heading__h2__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-heading__h2{
+    margin:1em 0;
+}
+
+.c-red__line__three{
+    width: 100%;
+}
+
+@media screen and (max-width:1020px) {
+    .c-heading__h3__contact{
+        margin-top: 2.5em;
+    }
+}

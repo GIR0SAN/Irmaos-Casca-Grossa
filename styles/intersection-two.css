@@ -1,0 +1,54 @@
+.l-section__intersection-two{
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.l-heading__h2__wrapper-bg__transparent{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.c-heading__h2-white{
+    width: 40%;
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:920px) {
+    .l-heading__h2__wrapper-bg__transparent{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .l-intersection-two__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-heading__h2-white{
+        width: auto;
+        justify-content: center;
+        margin-bottom: 1.25em;
+    }
+}
+
+@media screen and (max-width:430px){
+    .l-heading__h2__wrapper-bg__transparent{
+        width: 100%;
+    }
+    .c-heading__h2-white{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .c-image__logo{
+        width: 300px;
+    }
+}
